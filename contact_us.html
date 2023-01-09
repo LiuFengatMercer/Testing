@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang ="en">
+	<head>
+		<title>Welcome to INFM212 class</title>
+		<link rel="stylesheet" type="text/css" href ="main.css"/>
+	</head>
+	<body>
+	<div id = "container">
+		<div id = "topbar">
+		<br /><h1>Welcome to INFM212 </h1>
+		</div>
+		<div id = "nav">
+			<a href = "index.html"> Home</a><br />
+			<a href = "arnold.html"> Arnold</a><br />
+			<a href = "bria.html"> Bria</a><br />
+			<a href = "contact_us.html"> Contact Us</a><br />
+		</div>
+		<div id = "content">
+			<h2>Contact Us</h2>
+
+			<p class="right">Please fill out the following form and your contact info.</p>
+			<form name = "contact_form" action = "confirmation.html"method = "post">
+				First Name: <input type ="text" name="f_name" /><br />
+				Last Name: <input type ="text" name="l_name" /><br />
+
+				Gender: <br /><input type ="radio" name="gender" value ="Female" />Female <br />
+				<input type ="radio" name="gender" value ="Male"/>Male<br />
+
+
+				Address: <input type ="text" name="address" size ="45"/><br />
+				City: <input type ="text" name="city" size ="25"/>
+				State: <select name = "state">
+					<option value = "Alabama">Alabama</option>
+					<option value = "Georgia">Georgia</option>
+					<option value = "New York">New York</option>
+					<option value = "Washington">Washington DC</option>
+
+
+				Zipcode: <input type ="text" name="zip" size ="5"/>
+
+				Please write your comments on our product:<br />
+				<textarea rows ="5" cols ="60">
+
+				</textarea>
+				</select><button type ="submit"> Submit</button><!---->
+
+			</form>
+
+
+		</div>
+	</div>
+	</body>
+</html>
